@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.productImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+}
+.view {
+  background-color: teal;
+}
+.delete {
+  background-color: crimson;
+}
